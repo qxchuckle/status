@@ -11,13 +11,12 @@ window.Config = {
   // 只需填写域名部分，默认为官网域名
   // 因官网 API 时不时的会 CROS 报错，可填自定义反代域名
   // 详见 https://github.com/yb/uptime-status/ 说明
-  ApiDomain: 'uptimerobot.sianx.workers.dev/',
+  ApiDomain: 'api.uptimerobot.com',
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only 两只 Api Key
   ApiKeys: [
     'm791533882-7667c5a2c6d16ca2e7341996',
-    'ur1700354-7fd4dd3a2e4c7e62266f0956',
   ],
 
   // 是否显示监测站点的链接
