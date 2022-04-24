@@ -2,7 +2,7 @@
 window.Config = {
 
   // 站点名
-  SiteName: 'Uptime Status',
+  SiteName: '轻笑的网站状态',
 
   // 站点链接
   SiteUrl: '/',
@@ -20,7 +20,7 @@ window.Config = {
   ],
 
   // 是否显示监测站点的链接
-  ShowLink: false,
+  ShowLink: true,
 
   // 日志天数
   // 虽然免费版说仅保存60天日志，但测试好像API可以获取90天的
@@ -31,11 +31,11 @@ window.Config = {
   Navi: [
     {
       text: 'Blog',
-      url: 'https://imiku.me/'
+      url: 'https://www.chuckle.top'
     },
     {
       text: 'GitHub',
-      url: 'https://github.com/Ice-Hazymoon/'
+      url: 'https://github.com/qxchuckle/'
     }
   ]
 };
